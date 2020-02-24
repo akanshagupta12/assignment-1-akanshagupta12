@@ -3,9 +3,9 @@ package nod;
 import person.Person;
 
 public class Node {
-    Person data;
-    Node next;
-    Node(Person data){
+    public Node next;
+    public Person data;
+    public Node(Person data){
         this.data=data;
         next=null;
     }

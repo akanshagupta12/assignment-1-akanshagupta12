@@ -6,7 +6,7 @@ public class Person {String Firstname;
     private String Lastname;
     private ArrayList<Long> a;
     private String email;
-    Person(String Firstname,String Lastname,ArrayList<Long> a,String email){
+    public Person(String Firstname, String Lastname, ArrayList<Long> a, String email){
         this.a=a;
         this.Firstname=Firstname;
         this.Lastname=Lastname;
