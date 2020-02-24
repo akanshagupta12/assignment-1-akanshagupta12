@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
-        System.out.println("Welcome to Nandani's Contact List App");
+        System.out.println("Welcome to Akansha's Contact List App");
         ArrayList<String> arr2=new ArrayList<>();
         Contact contact=new Contact();
         while (true){
